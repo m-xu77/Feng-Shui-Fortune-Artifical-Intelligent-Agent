@@ -8,3 +8,4 @@ prompt = "May {subject} be with you!"
 
 chat_message_prompt = ChatMessagePromptTemplate.from_template(role="Skywalker",template=prompt)
 chat_message_prompt.format(subject="the Force")
+
